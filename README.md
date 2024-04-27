@@ -1,30 +1,21 @@
-# Ujian Online Menggunakan Laravel & Livewire
-
-<table>
-    <tr>
-        <td>
-            <a href="https://laravel.com"><img src="https://i.imgur.com/pBNT1yy.png" /></a>
-        </td>
-    </tr>
-</table>
+# Online-Exam-Application
 
 ## Requirements
 
-You need to have PHP version **8.1** or above. Node.js version **16.0** or above.
+You need to have PHP version **8.1** or above. Node.js version **16.0** or above, and also Install Laravel version **10.0**
 
-## Installation
+## How To Installation Project??
 
-1. Clone the project
+1. Clone the project / Downloading Project
 2. Go to the project root directory
-3. Run `composer install` and `npm install && npm run dev`
-4. Create database
-5. Copy `.env.example` into `.env` file and adjust parameters
-6. Run `php artisan serve` to start the project at http://127.0.0.1:8000
+3. Open terminal and then Run `composer install` and `npm install && npm run dev`
+5. Run php artisan key:generate
+6. Run php artisan make:migration
+7. Run php artisan db:seed
+8. Copy `.env.example` into `.env` file and don't forget adjust parameters
+9. Run `php artisan serve` to start the project
+10. Congratulation!!
 
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-Jika ada kesalahan pada Aplikasi ini atau ingin meminta saran bisa hubungi email: fitra6751@gmail.com atau lewat issues pada repo ini.
-
-Build With 💙
